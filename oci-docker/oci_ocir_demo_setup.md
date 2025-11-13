@@ -145,7 +145,7 @@ Use:
 
 Example:
 ```bash
-Username: bmzcke8ke5xv/docker-demo-user
+Username: asddasdada/docker-demo-user
 Password: <auth-token>
 ```
 
@@ -160,12 +160,12 @@ docker build -t myapp:latest .
 
 ### Tag for OCIR (child compartment repo)
 ```bash
-docker tag myapp:latest bom.ocir.io/bmzcke8ke5xv/myapp:latest
+docker tag myapp:latest bom.ocir.io/asddasdada/myapp:latest
 ```
 
 ### Push
 ```bash
-docker push bom.ocir.io/bmzcke8ke5xv/myapp:latest
+docker push bom.ocir.io/asddasdada/myapp:latest
 ```
 
 ---
